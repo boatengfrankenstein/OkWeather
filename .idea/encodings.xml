@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/fonts" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/DataCollection.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/ForecastDataCollection.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/GetForecastMethod.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/GetMethodEx.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/WeatherHttp.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/owm.json" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/voice/owm.txt" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/CardLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/Forecast.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/InfoCardAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/JSONWeatherParser.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/Location.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/UserSettingActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/Weather.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/WeatherHttpClient.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/boakye/daniel/okweather/weatherme/WeatherInfo.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_me.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/card_layout.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_card_layout.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_custom_list_cell.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/strings_activity_user_setting.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/pref_data_sync.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/pref_general.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/xml/pref_headers.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

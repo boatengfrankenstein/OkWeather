@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="115sp"
+    card_view:cardBackgroundColor="@color/cardColor"
+    card_view:cardCornerRadius="1sp"
+    android:layout_margin="1sp">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:paddingTop="6sp"
+        android:paddingLeft="6sp"
+        android:paddingRight="6sp"
+        android:layout_width="match_parent"
+        android:weightSum="1">
+
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:layout_width="0sp"
+            android:weightSum="1"
+            android:stretchColumns="*"
+            android:paddingLeft="6sp"
+            android:paddingRight="6sp">
+            <TextView
+                android:id="@+id/weather_icon"
+                android:layout_width="0sp"
+                android:layout_height="60sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="54sp" />
+            <TextView
+                android:id="@+id/weather_status"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:height="48sp"
+                android:textColor="@color/primaryTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:layout_width="0sp"
+            android:weightSum="1"
+            android:stretchColumns="*"
+            android:paddingLeft="6sp"
+            android:paddingRight="6sp">
+            <TableRow
+                android:layout_height="0sp"
+                android:layout_weight="0.5">
+                <TextView
+                    android:id="@+id/day"
+                    android:text="@string/app_name"
+                    android:gravity="center"
+                    android:height="48sp"
+                    android:textSize="22sp"
+                    android:textColor="@color/primaryDarkDef"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2" />
+            </TableRow>
+            <TableRow
+                android:layout_height="0sp"
+                android:weightSum="1"
+                android:layout_weight="0.5">
+                <TextView
+                    android:id="@+id/info_text"
+                    android:text="@string/app_name"
+                    android:height="48sp"
+                    android:textSize="20sp"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/wind_speed"
+                    android:text="@string/app_name"
+                    android:height="48sp"
+                    android:textSize="20sp"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+
+
+</android.support.v7.widget.CardView>

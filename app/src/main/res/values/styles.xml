@@ -1,0 +1,52 @@
+<!--
+  ~ Copyright (c) 2015. Tyler McCraw
+  -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light">
+        !-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/primaryDef</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/primaryDarkDef</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/primaryDef</item>
+        <item name="android:navigationBarColor">@color/primaryDef</item>
+    </style>
+
+
+    <!-- ActionBar Style -->
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/actionbar</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.Text</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <!-- ActionBar Text Style -->
+    <style name="AppTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- CardView Style -->
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+
+    <!-- Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="actionbar">#4FC3F7</color>
+    <color name="statusbar">#03A9F4</color>
+    <color name="background">#4FC3F7</color>
+    <color name="swiperefresh">#4FC3F7</color>
+
+    <!-- Fonts -->
+    <style name="AppTheme.TextStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+</resources>

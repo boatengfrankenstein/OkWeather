@@ -1,0 +1,44 @@
+{
+   "message":"accurate",
+   "cod":"200",
+   "count":1,
+   "list":[
+      {
+         "id":4560349,
+         "name":"Philadelphia",
+         "coord":{
+            "lon":-75.162452697754,
+            "lat":39.952278137207
+         },
+         "main":{
+            "temp":84.27,
+            "humidity":75,
+            "pressure":1001,
+            "temp_min":80.01,
+            "temp_max":89.01
+         },
+         "dt":1374515558,
+         "wind":{
+            "speed":4,
+            "deg":121.001
+         },
+         "sys":{
+            "country":"United States of America"
+         },
+         "rain":{
+            "1h":1.78
+         },
+         "clouds":{
+            "all":88
+         },
+         "weather":[
+            {
+               "id":501,
+               "main":"Rain",
+               "description":"moderate rain",
+               "icon":"10d"
+            }
+         ]
+      }
+   ]
+}

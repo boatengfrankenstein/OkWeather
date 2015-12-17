@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppBaseTheme" parent="android:Theme.Material.Light">
+                <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+                <item name="colorPrimary">@color/background</item>
+                <item name="colorPrimaryDark">@color/statusbar</item>
+                <item name="android:textViewStyle">@style/AppTheme.TextStyle</item>
+                <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        </style>
+</resources>
