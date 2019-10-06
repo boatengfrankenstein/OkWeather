@@ -1,7 +1,4 @@
-package com.boakye.daniel.okweather.weatherui;/*
- * Copyright (c) 2015. Tyler McCraw
- */
-
+package com.boakye.daniel.okweather.weatherui;
 
 
 import android.os.Bundle;
