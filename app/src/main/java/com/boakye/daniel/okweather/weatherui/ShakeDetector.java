@@ -1,5 +1,5 @@
 package com.boakye.daniel.okweather.weatherui;/*
- * Copyright 2014 Thomas Bouron
+
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
