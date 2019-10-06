@@ -1,5 +1,5 @@
 package com.boakye.daniel.okweather.weatherui;/*
- * Copyright (c) 2015. Tyler McCraw
+
  */
 
 
